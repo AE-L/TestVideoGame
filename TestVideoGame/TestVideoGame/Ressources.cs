@@ -17,7 +17,7 @@ namespace TestVideoGame
         //Initialisation
         public static void LoadContent(ContentManager Content)
         {
-            Player = Content.Load<Texture2D>("/sprite/char/static");
+            Player = Content.Load<Texture2D>("static");
         }
     }
 }

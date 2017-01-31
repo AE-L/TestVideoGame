@@ -64,7 +64,7 @@
   <ItemGroup>
     <Content Include="Content\sprite\char\dyna1.png" />
     <Content Include="Content\sprite\char\dyna2.png" />
-    <Content Include="Content\sprite\char\static.png" />
+    <Content Include="Content\static.png" />
     <Content Include="OpenTK.dll.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
