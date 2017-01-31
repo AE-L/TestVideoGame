@@ -1,0 +1,9 @@
+C:\Users\Etienne\Documents\GitHub\TestVideoGame\TestVideoGame\TestVideoGame\bin\Debug\OpenTK.dll.config
+C:\Users\Etienne\Documents\GitHub\TestVideoGame\TestVideoGame\TestVideoGame\bin\Debug\TestVideoGame.exe
+C:\Users\Etienne\Documents\GitHub\TestVideoGame\TestVideoGame\TestVideoGame\bin\Debug\TestVideoGame.pdb
+C:\Users\Etienne\Documents\GitHub\TestVideoGame\TestVideoGame\TestVideoGame\bin\Debug\MonoGame.Framework.dll
+C:\Users\Etienne\Documents\GitHub\TestVideoGame\TestVideoGame\TestVideoGame\bin\Debug\NVorbis.dll
+C:\Users\Etienne\Documents\GitHub\TestVideoGame\TestVideoGame\TestVideoGame\bin\Debug\OpenTK.dll
+C:\Users\Etienne\Documents\GitHub\TestVideoGame\TestVideoGame\TestVideoGame\obj\x86\Debug\TestVideoGame.csprojResolveAssemblyReference.cache
+C:\Users\Etienne\Documents\GitHub\TestVideoGame\TestVideoGame\TestVideoGame\obj\x86\Debug\TestVideoGame.exe
+C:\Users\Etienne\Documents\GitHub\TestVideoGame\TestVideoGame\TestVideoGame\obj\x86\Debug\TestVideoGame.pdb
