@@ -34,15 +34,13 @@ namespace TestVideoGame
 
 		}
 
-		protected override void Update (GameTime gameTime)
-		{
+        protected override void UnloadContent()
+        {
+            Content.Unload();
+        }
 
-			#if !__IOS__ &&  !__TVOS__
-			if (GamePad.GetState (PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState ().IsKeyDown (Keys.Escape))
-				Exit ();
-			#endif
-            
-            
+        protected override void Update (GameTime gameTime)
+		{
 			base.Update (gameTime);
 		}
 
