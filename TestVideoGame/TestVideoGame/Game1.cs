@@ -5,6 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.Input;
 
+
 namespace TestVideoGame
 {
 
@@ -12,6 +13,8 @@ namespace TestVideoGame
 	{
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
+
+        MainGame Main;
 
 		public Game1 ()
 		{
@@ -31,6 +34,8 @@ namespace TestVideoGame
 		{
 
 			spriteBatch = new SpriteBatch (GraphicsDevice);
+            Ressources.LoadContent(Content);
+            Main = new MainGame();
 
 		}
 
@@ -41,15 +46,16 @@ namespace TestVideoGame
 
         protected override void Update (GameTime gameTime)
 		{
+            Main.Update(Mouse.GetState(), Keyboard.GetState());
 			base.Update (gameTime);
 		}
 
 		protected override void Draw (GameTime gameTime)
 		{
 			graphics.GraphicsDevice.Clear (Color.BurlyWood);
-            
-
-            
+            spriteBatch.Begin();
+            Main.Draw(spriteBatch);
+            spriteBatch.End();
 			base.Draw (gameTime);
 		}
 	}
